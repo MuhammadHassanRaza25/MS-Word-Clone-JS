@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:sans-serif;
+}
+body{
+    background-color: rgb(230, 230, 230)
+}
+.heading{
+    background-color: rgb(42, 87, 154);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+/* main div */
+.buttons{
+    background-color: #f1f1f1;
+    padding: 35px;
+}
+/* main div */
+
+/* button row 1 start */
+.buttonrow1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+}
+.buttonrow1 select{
+    padding: 5px;
+    font-size: 20px;
+}
+.buttonrow1 label{
+    font-size: large;
+}
+.buttonrow1 input{
+    height: 30px;
+}
+.buttonrow1 button{
+    width: 85px;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    background-color: #e5e3e3;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* button row 1 end*/
+
+/* button row 2 start */
+.buttonrow2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 2%;
+}
+.buttonrow2 button{
+    width: 85px;
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    background-color: #e5e3e3;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* button row 2 end*/
+
+/* textarea start */
+.textareaDiv{
+   display: flex;
+   justify-content: center;
+   margin-top: 3%;
+}
+.textareaDiv textarea{
+   width: 80%;
+   height: 55vh;
+   padding: 20px;
+   border: none;
+}
+.textareaDiv textarea:focus{
+    outline: none;
+}
+/* textarea end */
+@media(max-width:500px){
+    .heading{
+        font-size: 15px;
+    }
+    .buttonrow2{
+        margin-top: 8%;
+    }
+}

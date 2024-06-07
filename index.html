@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Word Clone By Muhammad Hassan Raza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!------------------- heading start ------------------->
+    <div class="heading">
+      <p>MS Word Clone By Muhammad Hassan Raza</p>
+    </div>
+    <!------------------- heading end ------------------->
+
+    <!-------------------- buttons start ------------------->
+      <div class="buttons">
+        <div class="buttonrow1">
+            <!-- Fonts -->
+           <select id="fonts">
+              <option disabled selected>Fonts</option>
+              <option>monospace</option>
+              <option>fantasy</option>
+              <option>cursive</option>
+              <option>sans-serif</option>
+              <option>verdana</option>
+              <option>impact</option>
+           </select>
+            <!-- Fonts -->
+            <!-- Font Size -->
+            <select id="fontSize">
+              <option disabled selected>Font Size</option>
+              <option>12</option>
+              <option>14</option>
+              <option>16</option>
+              <option>18</option>
+              <option>20</option>
+              <option>22</option>
+              <option>24</option>
+              <option>26</option>
+              <option>28</option>
+              <option>30</option>
+              <option>32</option>
+              <option>34</option>
+              <option>38</option>
+           </select>
+            <!-- Font Size -->
+            <button id="delText"><del>xyz</del></button>
+            <label for="">Color <input type="color" title="Color" id="color"></label>
+            <label for="">Background Color <input type="color" title="Background Color" id="bgColor"></label>
+       </div>
+     
+       <div class="buttonrow2">
+        <button id="aLeft">Left</button>
+        <button id="aCenter">Center</button>
+        <button id="aRight">Right</button>
+        <button id="bold">B</button>
+        <button id="italic">I</button>
+        <button id="underline">U</button>
+       </div>
+    </div>
+    <!-------------------- buttons end ------------------->
+
+    <!-------------------- textarea start ------------------->
+         <div class="textareaDiv">
+          <textarea id="textarea"></textarea>
+         </div>
+    <!-------------------- textarea end ---------------------->
+
+
+<script src="app.js"></script>
+</body>
+</html>
